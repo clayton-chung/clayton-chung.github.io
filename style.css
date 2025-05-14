@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+  margin: 0;
+}
+
+header {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #eaeaea;
+  color: #404040;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+nav a:hover {
+  color: #007acc;
+}
+
+nav .fa-github,
+nav .fa-linkedin {
+  font-size: 1.5rem;
+}
+
+main {
+  flex: 1;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+/********** HERO *********/
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.hero-name {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 4rem;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.hero-projects {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  margin-bottom: 1.0rem;
+}
+
+.hero-underline {
+  width: 60px;
+  height: 4px;
+  background-color: #333;
+  border: none;
+  margin: 0.5rem auto;
+}
+
+.hero-contact {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  color: #555;
+  margin: 0.5rem 0 0;
+}
+
+/********** *********/
+
+/********** TEXT CONTENT *********/
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1.15rem;
+  color: #404040;
+}
+
+.content p {
+  font-family: 'Lora', 'Times New Roman', serif;
+  margin-bottom: 1.5rem;
+}
+
+.content a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+/********** *********/
+
+/********** FOOTER *********/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #ddd;
+  background-color: #eaeaea;
+  color: #404040;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/********** *********/
+
+.projects-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects-list li {
+  margin-bottom: 2rem;
+}
+
+.projects-list h2 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.projects-list a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.projects-list a:hover {
+  text-decoration: underline;
+}
+
+.projects-list p {
+  margin: 0;
+  line-height: 1.6;
+  color: #404040;
+}
